@@ -8,18 +8,26 @@ Brought to you by FaceX.io, this docker image can now be used to host FaceX Face
 ## Index
 * [Setup](#setup)
 * [Interacting with the server](#interacting-with-the-server)
-* [Face Detection](#face-detection)
-  * [Endpoint](#endpoint)
-  * [Response](#response-)
-* [Face Match](#face-match)
-  * [Endpoint](#endpoint-)
-  * [Query Parameters](#query-parameters-)
-  * [Body Parameters](#body-parameters-) 
-  * [Response](#response--1)
-* [Errors and Warnings](#error-and-warnings)
+  * [Directions](#directions)
+* [Add User](#add-user)
+  * [Endpoint](#endpoint)  
+  * [Response](#repsonse)
+* [Delete User](#delete-user)
+  * [Endpoint](#endpoint-1)
+  * [Response](#response)
+* [Build Index](#build-index)
+  * [Endpoint](#endpoint-2)
+  * [Response](#response-1)
+* [Search User](#search-user)
+  * [Endpoint](#endpoint-2)
+  * [Response](#response-2)
+* [Error and Warnings](#error-and-warnings)
   * [Server Side](#server-side-)
-  * [API error Responses](#api-error-responses)
-
+  * [API Error Responses](#api-error-responses)
+  * [Add User Errors](#add-user-1)
+  * [Search User Errors](#search_user)
+  * [Delete User Errors](#delete_user)
+  
 
 ## Setup
 1. Download the docker image file provided as a tar archive `face_search.tar.gz`
